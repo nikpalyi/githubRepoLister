@@ -18,7 +18,11 @@ const ContributorsList = () => {
     })
   );
 
-  useEffect(() => getContListResponse(ownerName, repoName), []);
+  useEffect(
+    () => getContListResponse(ownerName, repoName),
+    // eslint-disable-next-line
+    []
+  );
 
   const style = {
     contributorsList: css`
