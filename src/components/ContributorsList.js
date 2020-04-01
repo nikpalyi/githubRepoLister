@@ -5,8 +5,8 @@ import { useResource } from 'react-request-hook';
 import { Link, useParams } from 'react-router-dom';
 import colors from '../resources/colors';
 import ContributorsItem from './ContributorsItem';
-import Search from './Search';
-import RepoList from './RepoList';
+//import Search from './Search';
+//import RepoList from './RepoList';
 
 const ContributorsList = () => {
   const { ownerName, repoName } = useParams();
